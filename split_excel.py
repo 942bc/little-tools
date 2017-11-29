@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding:utf-8  -*-
 '''
-@description: 将一个大excel分割成多个小excel
+@description: 将一个大excel分割成多个1000行的小excel
 @author: 张佳俊
 '''
 
@@ -9,7 +9,7 @@ import xlrd
 import xlwt
 import os
 
-limit = 500
+limit = 1000
 
 readbook = raw_input('输入源Excel路径(不要包含中文):')
 
